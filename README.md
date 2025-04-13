@@ -1,4 +1,4 @@
-# SQL Validator and Smart Query Assistant
+# HVSR Text2SQL - SQL Validator and Smart Query Assistant
 
 A two-part system for validating SQL queries and providing smart query assistance using validated queries and LLM fallback.
 
