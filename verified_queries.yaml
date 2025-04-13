@@ -1,0 +1,43 @@
+verified_queries:
+- name: Product order status query
+  query_explanation: To find the number of orders delivered in 2018, filter "order_status"
+    for 'delivered' and convert "delivery_date" to check for the year 2018 in "ECommerce"."geographical_orders_analysis".
+  question: 'how many orders are delivered in the year 2018 ? '
+  sql: 'SELECT COUNT(*) AS "Number of Products Delivered"
+
+    FROM "ECommerce"."geographical_orders_analysis"
+
+    WHERE "order_status" = ''canceled'' -- invoiced, unavailabe, approved, delivered,shipped,
+    processing,
+
+    AND "purchase_time" BETWEEN ''2018-01-01'' AND ''2018-12-31'';'
+  verified_at: 12 April 2025
+  verified_by: data_analyst
+- name: Product order status query
+  query_explanation: To find the number of orders delivered in 2018, filter "order_status"
+    for 'delivered' and convert "delivery_date" to check for the year 2018 in "ECommerce"."geographical_orders_analysis".
+  question: 'how many orders are delivered in the year 2018 ? '
+  sql: 'SELECT COUNT(*) AS "Number of Products Delivered"
+
+    FROM "ECommerce"."geographical_orders_analysis"
+
+    WHERE "order_status" = ''canceled'' -- invoiced, unavailabe, approved, delivered,shipped,
+    processing,
+
+    AND "purchase_time" BETWEEN ''2018-01-01'' AND ''2018-12-31'';'
+  verified_at: 12 April 2025
+  verified_by: data_analyst
+- name: Product order status query
+  query_explanation: To find the number of orders delivered in 2018, filter "order_status"
+    for 'delivered' and convert "delivery_date" to check for the year 2018 in "ECommerce"."geographical_orders_analysis".
+  question: 'how many orders are delivered in the year 2018 ? '
+  sql: 'SELECT COUNT(*) AS "Number of Products Delivered"
+
+    FROM "ECommerce"."geographical_orders_analysis"
+
+    WHERE "order_status" = ''canceled'' -- invoiced, unavailabe, approved, delivered,shipped,
+    processing,
+
+    AND "purchase_time" BETWEEN ''2018-01-01'' AND ''2018-12-31'';'
+  verified_at: 12 April 2025
+  verified_by: data_analyst
